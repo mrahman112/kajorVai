@@ -1,0 +1,31 @@
+package testing;
+
+
+
+import org.testng.Assert;
+import org.testng.annotations.Test;
+
+public class GroupTestcases {
+	
+	
+	@Test(priority=1)
+	public void login()
+	{
+		Assert.assertEquals("a", "b");
+		System.out.println("log in");
+	}
+	
+	
+	@Test(priority=2)
+	public void changePassword()
+	{
+		System.out.println("change password");
+	}
+	
+	@Test(priority=3)
+	public void logOut()
+	{
+		System.out.println("log out");
+	}
+
+}

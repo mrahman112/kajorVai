@@ -1,0 +1,29 @@
+package testing;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+public class dropdown {
+
+	public static void main(String[] args) throws InterruptedException {
+		WebDriver driver=new FirefoxDriver();
+	
+		// walmart example
+		/*
+		driver.get("http://walmart.com");
+		driver.findElement(By.xpath("//*[@id='searchbox']/span/div/div[1]")).click();
+		Thread.sleep(2000L);
+		driver.findElement(By.xpath("//*[@id='searchbox']/span/div/div[2]/span[3]")).click();
+		*/
+		
+		
+		//ebay example
+		
+		driver.get("http://ebay.com");
+		//driver.findElement(By.xpath("//*[@id='gh-cat']")).click();
+		Thread.sleep(5000L);
+		driver.findElement(By.xpath("//*[@id='gh-cat']")).sendKeys("Art");;
+	}
+
+}

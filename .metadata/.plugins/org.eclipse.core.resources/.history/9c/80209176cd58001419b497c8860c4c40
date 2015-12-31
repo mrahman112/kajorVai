@@ -1,0 +1,17 @@
+package testing;
+
+public class Hello1 implements Helo{
+
+	
+	public static void main(String[] args)
+	{
+		Hello1 h=new Hello1();
+		h.method1();
+	}
+	@Override
+	public void method1() {
+		System.out.println("hello");
+		
+	}
+
+}

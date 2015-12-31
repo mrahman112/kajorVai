@@ -1,0 +1,26 @@
+package testing;
+
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+public class roughwork {
+
+	public static void main(String[] args) {
+		
+		
+		WebDriver driver=new FirefoxDriver();
+		driver.manage().window().maximize();
+		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+		driver.get("file:///C:/Users/Public/Documents/try.html");
+		
+		driver.findElement(By.xpath("//input[@id='AdditionalDrivers_0__HasIncident' and @value='True']")).click();
+		System.out.println(driver.getTitle());
+		
+		
+		//*[@id='email']
+	}
+
+}

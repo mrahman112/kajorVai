@@ -1,0 +1,15 @@
+
+public class RecursiveMethod {
+
+	public static void main(String[] args) {
+		System.out.println(reusable(5));
+		
+	}
+	
+	public static int reusable(int i){
+		
+		
+		return reusable(i-1);
+	}
+
+}

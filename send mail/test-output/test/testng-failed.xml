@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [test]">
+  <test name="test1(failed)">
+    <classes>
+      <class name="test.Testing3">
+        <methods>
+          <include name="emailSent1"/>
+        </methods>
+      </class> <!-- test.Testing3 -->
+      <class name="test.Testing">
+        <methods>
+          <include name="setup"/>
+          <include name="result"/>
+        </methods>
+      </class> <!-- test.Testing -->
+      <class name="test.Testing2">
+        <methods>
+          <include name="emailSent"/>
+        </methods>
+      </class> <!-- test.Testing2 -->
+    </classes>
+  </test> <!-- test1(failed) -->
+  <test name="test2(failed)">
+    <classes>
+      <class name="test.Testing3">
+        <methods>
+          <include name="start1"/>
+          <include name="emailSent1"/>
+        </methods>
+      </class> <!-- test.Testing3 -->
+      <class name="test.Testing">
+        <methods>
+          <include name="result"/>
+        </methods>
+      </class> <!-- test.Testing -->
+      <class name="test.Testing2">
+        <methods>
+          <include name="emailSent"/>
+        </methods>
+      </class> <!-- test.Testing2 -->
+    </classes>
+  </test> <!-- test2(failed) -->
+</suite> <!-- Failed suite [test] -->

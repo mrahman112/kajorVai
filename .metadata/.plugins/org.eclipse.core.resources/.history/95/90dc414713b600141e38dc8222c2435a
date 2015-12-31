@@ -1,0 +1,26 @@
+package test;
+
+import org.testng.Assert;
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.Test;
+
+public class Testing2 {
+	
+	@Test
+	public void start() throws InterruptedException{
+		
+		int a=3;
+		int b=3;
+		Assert.assertEquals(a, b, "not equal");
+		
+		
+	}
+	
+	@AfterTest
+	public void emailSent() throws Exception
+	{
+		
+		EmailableReport.execute();
+	}
+
+}

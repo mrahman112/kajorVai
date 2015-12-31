@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="8278" started-at="2014-10-03T20:56:57Z" finished-at="2014-10-03T20:57:06Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="8278" started-at="2014-10-03T20:56:57Z" finished-at="2014-10-03T20:57:06Z">
+      <class name="com.yahoo.test.yahoologin">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.yahoo.test.yahoologin@3f327012]" name="beforeTest" is-config="true" duration-ms="3936" started-at="2014-10-03T16:56:57Z" finished-at="2014-10-03T16:57:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="actualTest(java.lang.String)[pri:0, instance:com.yahoo.test.yahoologin@3f327012]" name="actualTest" duration-ms="4331" started-at="2014-10-03T16:57:01Z" data-provider="gotData" finished-at="2014-10-03T16:57:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sapon]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- actualTest -->
+      </class> <!-- com.yahoo.test.yahoologin -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

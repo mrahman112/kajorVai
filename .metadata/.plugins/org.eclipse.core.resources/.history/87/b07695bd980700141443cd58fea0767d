@@ -1,0 +1,23 @@
+package testing;
+
+public class ReverseString {
+
+	public static void main(String[] args) {
+
+		isPallindrome("abb");
+		
+		
+
+	}
+	
+	
+	public static boolean isPallindrome(String s)
+	{
+		StringBuilder str=new StringBuilder(s);
+
+		return str.reverse().toString().equals(s);
+
+
+	}
+
+}

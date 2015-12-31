@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="7564" started-at="2014-06-24T03:29:59Z" finished-at="2014-06-24T03:30:07Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="7564" started-at="2014-06-24T03:29:59Z" finished-at="2014-06-24T03:30:07Z">
+      <class name="com.yahoo.test.LoginTest">
+        <test-method status="PASS" signature="doLogin(java.util.Hashtable)[pri:0, instance:com.yahoo.test.LoginTest@55aad6f4]" name="doLogin" duration-ms="3585" started-at="2014-06-23T23:29:59Z" data-provider="getData" finished-at="2014-06-23T23:30:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{browser=Mozilla, password=p1, Runmode=y, username=u1}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLogin -->
+        <test-method status="PASS" signature="doLogin(java.util.Hashtable)[pri:0, instance:com.yahoo.test.LoginTest@55aad6f4]" name="doLogin" duration-ms="1321" started-at="2014-06-23T23:30:03Z" data-provider="getData" finished-at="2014-06-23T23:30:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{browser=Mozilla, password=humaira1, Runmode=n, username=mdsapon@yahoo.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLogin -->
+        <test-method status="PASS" signature="doLogin(java.util.Hashtable)[pri:0, instance:com.yahoo.test.LoginTest@55aad6f4]" name="doLogin" duration-ms="1335" started-at="2014-06-23T23:30:04Z" data-provider="getData" finished-at="2014-06-23T23:30:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{browser=Chrome, password=p1, Runmode=y, username=u1}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLogin -->
+        <test-method status="PASS" signature="doLogin(java.util.Hashtable)[pri:0, instance:com.yahoo.test.LoginTest@55aad6f4]" name="doLogin" duration-ms="1302" started-at="2014-06-23T23:30:05Z" data-provider="getData" finished-at="2014-06-23T23:30:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{browser=Chrome, password=humaira1, Runmode=y, username=mdsapon@yahoo.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLogin -->
+      </class> <!-- com.yahoo.test.LoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

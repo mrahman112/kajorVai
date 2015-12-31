@@ -1,0 +1,22 @@
+package test;
+
+import org.testng.Assert;
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.Test;
+
+public class Testing {
+	
+	@Test
+	public void setup() throws InterruptedException{
+		Assert.fail("intentional failed");
+		//Thread.sleep(2000);
+	}
+	
+	
+	@AfterTest
+	public void result() throws Exception{
+		EmailableReport.execute();
+	}
+
+	
+}

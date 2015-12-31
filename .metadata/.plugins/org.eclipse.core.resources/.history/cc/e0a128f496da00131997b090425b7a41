@@ -1,0 +1,26 @@
+package testing;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.interactions.Actions;
+
+public class YahooSignOut {
+
+	public static void main(String[] args) throws InterruptedException {
+		WebDriver driver=new FirefoxDriver();
+		driver.manage().window().maximize();
+		driver.get("http://yahoomail.com");
+		
+		driver.findElement(By.xpath("//*[@id='username']")).sendKeys("mdsapon");
+		driver.findElement(By.xpath("//*[@id='passwd']")).sendKeys("Romanaripa1");
+		driver.findElement(By.xpath("//*[@id='.save']")).click();
+		
+		new Actions(driver).moveToElement(driver.findElement(By.xpath("//input[@class='yucs-avatar']"))).build().perform();
+		
+		Thread.sleep(5000L);
+		driver.findElement(By.xpath("//input[@class='yucs-signout']")).click();
+
+	}
+
+}

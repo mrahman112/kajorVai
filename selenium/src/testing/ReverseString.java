@@ -1,0 +1,26 @@
+package testing;
+
+public class ReverseString {
+
+	public static void main(String[] args) {
+
+		System.out.println(isPallindrome("abba"));
+		
+		String a="hello";
+		System.out.println(a.toUpperCase());
+		System.out.println(a.substring(2, 4));
+		
+
+	}
+	
+	
+	public static boolean isPallindrome(String s)
+	{
+		StringBuilder str=new StringBuilder(s);
+
+		return str.reverse().toString().equals(s);
+
+
+	}
+
+}

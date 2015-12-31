@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+  <testsuite failures="0" id="0" name="" package="" tests="3">
+    <testcase classname="Life of Dental guys" name="I am a Dentist_3" time="0.069673">
+      <system-out><![CDATA[Given I am a "good" Dentist.........................................................passed
+When I go to clinic.............................................................passed
+Then I "treat" with patient.........................................................passed
+And My boss "likes" me...........................................................passed
+But The assistant "hates" me........................................................passed
+]]></system-out>
+
+    </testcase>
+
+    <testcase classname="Life of Dental guys" name="I am a Dentist_2" time="0.000469">
+      <system-out><![CDATA[Given I am a "bad" Dentist.........................................................passed
+When I go to clinic.............................................................passed
+Then I "mess" with patient.........................................................passed
+And My boss "hates" me...........................................................passed
+But The assistant "likes" me........................................................passed
+]]></system-out>
+
+    </testcase>
+
+    <testcase classname="Life of Dental guys" name="I am a Dentist_1" time="0.0005">
+      <system-out><![CDATA[Given I am a "average" Dentist.......................................................passed
+When I go to clinic.............................................................passed
+Then I "treating" with patient.......................................................passed
+And My boss "soso" me............................................................passed
+But The assistant "noReaction" me......................................................passed
+]]></system-out>
+
+    </testcase>
+
+  </testsuite>
+</testsuites>

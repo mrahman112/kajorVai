@@ -1,0 +1,29 @@
+package polymorphism;
+
+public class fibonacci {
+
+	public static void main(String[] args) {
+		
+		 
+		Xls_Reader x=new Xls_Reader(System.getProperty("user.dir")+"\\src\\polymorphism\\hybrideExcel.xlsx");
+		score(x,"CreateLeadTest");
+	
+	}
+	
+
+	public static void score(Xls_Reader xl,String testcase)
+	{
+		
+		 xl=new Xls_Reader(System.getProperty("user.dir")+"\\src\\polymorphism\\hybrideExcel.xlsx");
+		
+		 int teststartrow=1;
+		 while(!xl.getCellData("Sheet1", 0, teststartrow).equals(testcase))
+		 
+			 teststartrow++;
+		 
+	
+		 System.out.println(testcase+" starts from  "+teststartrow);
+		
+	}
+	
+}

@@ -1,0 +1,37 @@
+package testing;
+
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.testng.Assert;
+
+public class roughwork {
+
+	public static void main(String[] args) {
+		
+		
+		WebDriver driver=new FirefoxDriver();
+		driver.manage().window().maximize();
+		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+		driver.get("http://nowriztech.com");
+		
+		driver.findElement(By.xpath("//*[@id='ContentPlaceHolder1_txtUserName1']")).sendKeys("mizan101");
+		driver.findElement(By.xpath("//*[@id='ContentPlaceHolder1_txtPassword']")).sendKeys("nts123");
+		driver.findElement(By.xpath("//input[@value='False']")).click();
+		System.out.println(driver.getTitle());
+		
+		String actual=driver.getTitle();
+		String expected="ariztech";
+		
+		Assert.assertEquals(actual, expected);
+		
+		
+		
+		
+		
+		//*[@id='email']
+	}
+
+}

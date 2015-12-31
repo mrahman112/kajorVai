@@ -1,0 +1,24 @@
+package com.gmail.base;
+
+import java.io.IOException;
+import java.net.MalformedURLException;
+import java.net.URL;
+
+import javax.xml.parsers.DocumentBuilder;
+import javax.xml.parsers.DocumentBuilderFactory;
+import javax.xml.parsers.ParserConfigurationException;
+
+import org.w3c.dom.Document;
+import org.xml.sax.SAXException;
+
+public class XML {
+
+	public static void main(String[] args) throws MalformedURLException, SAXException, IOException, ParserConfigurationException {
+		DocumentBuilderFactory dbf = DocumentBuilderFactory.newInstance();
+		DocumentBuilder db = dbf.newDocumentBuilder();
+		Document doc = db.parse(new URL("http://feed.theplatform.com/f/dCK2IC/atv_usa_showcase_stage").openStream());
+		System.out.println(doc.getLastChild().getTextContent());
+
+	}
+
+}

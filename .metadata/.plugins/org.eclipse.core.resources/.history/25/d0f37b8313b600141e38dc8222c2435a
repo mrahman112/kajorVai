@@ -1,0 +1,82 @@
+package test;
+
+import java.io.File;
+import java.util.Properties;
+
+import javax.activation.*;
+import javax.mail.*;
+import javax.mail.internet.InternetAddress;
+import javax.mail.internet.MimeBodyPart;
+import javax.mail.internet.MimeMessage;
+import javax.mail.internet.MimeMultipart;
+
+import org.testng.annotations.AfterTest;
+
+public class EmailableReportSent {
+	
+	
+public static void mailing() throws InterruptedException {
+
+
+	 String testReportPath=System.getProperty("user.dir")+"\\test-output\\emailable-report.html";
+	 String emailSentTo="mdsapon@yahoo.com";
+    System.out.println(testReportPath);		
+     String username = "mizansapon@gmail.com";
+     String password = "xxxx";
+    
+     String file =testReportPath ;//file that has to be sent
+     File myfile= new File(file);
+     File myDestFile= new File("C:\\test\\newreport.html");
+     
+     
+     testReportPath="C:\\test\\newreport.html";
+     
+     
+    Properties props = new Properties();
+    props.put("mail.smtp.auth", true);
+    props.put("mail.smtp.starttls.enable", true);
+    props.put("mail.smtp.host", "smtp.gmail.com");
+    props.put("mail.smtp.port", "587");
+
+    Session session = Session.getInstance(props,
+            new javax.mail.Authenticator() {
+                protected PasswordAuthentication getPasswordAuthentication() {
+                    return new PasswordAuthentication(username, password);
+                }
+            });
+
+    try {
+
+        Message message = new MimeMessage(session);
+        message.setFrom(new InternetAddress(username));
+        message.setRecipients(Message.RecipientType.TO,
+                InternetAddress.parse(emailSentTo));//destination email;
+        message.setSubject("Testing Subject");
+        message.setText("PFA");
+
+        MimeBodyPart messageBodyPart = new MimeBodyPart();
+
+        Multipart multipart = new MimeMultipart();
+
+        messageBodyPart = new MimeBodyPart();
+       
+        //String fileName = "Testreport.html";
+       
+        DataSource source = new FileDataSource(file);
+        messageBodyPart.setDataHandler(new DataHandler(source));
+        //messageBodyPart.setFileName(fileName);
+        multipart.addBodyPart(messageBodyPart);
+
+        message.setContent(multipart);
+
+        System.out.println("Sending");
+
+        Transport.send(message);
+
+        System.out.println("Done");
+
+    } catch (MessagingException e) {
+        e.printStackTrace();
+    }
+  }
+}

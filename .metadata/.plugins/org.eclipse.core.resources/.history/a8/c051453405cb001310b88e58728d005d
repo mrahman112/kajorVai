@@ -1,0 +1,58 @@
+package polymorphism;
+
+public class fibonacci {
+
+	public static void main(String[] args) {
+		
+		 
+		Xls_Reader x=new Xls_Reader(System.getProperty("user.dir")+"\\src\\polymorphism\\hybrideExcel.xlsx");
+		score(x,"LoginTest");
+		score(x,"CreateLeadTest");
+		score(x,"MenuTest");
+	
+	}
+	
+
+	public static void score(Xls_Reader xl,String testcase)
+	{
+		
+		 xl=new Xls_Reader(System.getProperty("user.dir")+"\\src\\polymorphism\\hybrideExcel.xlsx");
+		//find from where test case starts
+		 int teststartrow=1;
+		 while(!xl.getCellData("Sheet1", 0, teststartrow).equals(testcase))
+		 
+			 teststartrow++;
+		 
+	
+		 System.out.println(testcase+" starts from  "+teststartrow);
+	
+		 
+		 
+		 //find total number of rows per testcase
+		 int rowstarts=teststartrow+2;
+		 int rows=0;
+		 while(!xl.getCellData("Sheet1", 0, rowstarts+rows).equals(""))
+		 {
+			 rows++;
+		 
+		 }
+		 System.out.println(rows);
+		 
+		 //find total number of cols per testcase
+		 
+		 int cols=0;
+		 while(!xl.getCellData("Sheet1", cols, rowstarts).equals(""))
+		 {
+			 cols++;
+		 }
+		 
+		 System.out.println(cols);
+		 
+		 //extract the data
+		 
+		 for(int row=)
+		 
+		 
+	}
+	
+}

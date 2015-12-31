@@ -1,0 +1,16 @@
+
+public class RecursiveMethod {
+
+	public static void main(String[] args) {
+		reusable(5);
+		
+	}
+	
+	public static void reusable(int i){
+		while (i==0)
+		{
+			reusable(i-1);
+		}
+	}
+
+}

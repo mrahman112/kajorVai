@@ -1,0 +1,12 @@
+package testing;
+
+public class constructors {
+	
+	public static void sum()
+	{
+		System.out.println("hello");
+	}
+	
+	
+
+}

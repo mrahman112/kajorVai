@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [test]">
+  <test name="registration test(failed)">
+    <classes>
+      <class name="com.totalpractice.testing.LoginTest">
+        <methods>
+          <include name="doLogin" invocation-numbers="0 1"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- com.totalpractice.testing.LoginTest -->
+    </classes>
+  </test> <!-- registration test(failed) -->
+</suite> <!-- Failed suite [test] -->

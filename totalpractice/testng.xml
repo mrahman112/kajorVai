@@ -1,0 +1,30 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="test">
+
+
+
+<test name="registration test">
+    <classes>
+        <class name="com.totalpractice.testing.LoginTest" ></class>  
+    </classes>
+</test>
+
+<test name="menu test">
+    <classes>
+        <class name="com.totalpractice.testing.MenuTest" ></class>  
+    </classes>
+</test>
+
+<test name="logout test">
+    <classes>
+        <class name="com.totalpractice.testing.SignoutTest" ></class>  
+    </classes>
+</test>
+
+<test name="base test">
+    <classes>
+        <class name="com.totalpractice.base.BaseClass" ></class>  
+    </classes>
+</test>
+
+</suite>

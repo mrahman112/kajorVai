@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="1" failed="0" total="3" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="27923" started-at="2015-01-27T19:26:29Z" finished-at="2015-01-27T19:26:57Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="27923" started-at="2015-01-27T19:26:29Z" finished-at="2015-01-27T19:26:57Z">
+      <class name="com.qtpselenium.salesforce.testcases.LoginTest">
+        <test-method status="PASS" signature="doLogin(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qtpselenium.salesforce.testcases.LoginTest@2b80d80f]" name="doLogin" duration-ms="17462" started-at="2015-01-27T14:26:29Z" data-provider="getData" finished-at="2015-01-27T14:26:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[u1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[p1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[mozilla]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[y]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLogin -->
+        <test-method status="SKIP" signature="doLogin(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qtpselenium.salesforce.testcases.LoginTest@2b80d80f]" name="doLogin" duration-ms="1" started-at="2015-01-27T14:26:46Z" data-provider="getData" finished-at="2015-01-27T14:26:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[u2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[u1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[n]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[test case is skippin cause runmode set to no]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: test case is skippin cause runmode set to no
+	at com.qtpselenium.salesforce.testcases.LoginTest.doLogin(LoginTest.java:22)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLogin -->
+        <test-method status="PASS" signature="doLogin(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qtpselenium.salesforce.testcases.LoginTest@2b80d80f]" name="doLogin" duration-ms="10438" started-at="2015-01-27T14:26:46Z" data-provider="getData" finished-at="2015-01-27T14:26:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[u3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[u1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[mozilla]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[y]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLogin -->
+      </class> <!-- com.qtpselenium.salesforce.testcases.LoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

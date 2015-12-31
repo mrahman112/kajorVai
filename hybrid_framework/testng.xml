@@ -1,0 +1,18 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="test">
+
+
+
+<test name="registration test">
+    <classes>
+        <class name="rough.testbase" ></class>  
+    </classes>
+</test>
+
+<test name="test base">
+    <classes>
+        <class name="rough.yahoologintest" ></class>  
+    </classes>
+</test>
+
+</suite>

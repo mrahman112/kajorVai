@@ -1,0 +1,18 @@
+package testing;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+public class dropdown {
+
+	public static void main(String[] args) throws InterruptedException {
+		WebDriver driver=new FirefoxDriver();
+		driver.get("http://walmart.com");
+		driver.findElement(By.xpath("//*[@id='searchbox']/span/div/div[1]")).click();
+		Thread.sleep(2000L);
+		driver.findElement(By.xpath("//*[@id='searchbox']/span/div/div[1]")).sendKeys("Baby");
+
+	}
+
+}

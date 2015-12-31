@@ -1,0 +1,17 @@
+package testing;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+public class dropdown {
+
+	public static void main(String[] args) {
+		WebDriver driver=new FirefoxDriver();
+		driver.get("http://walmart.com");
+		driver.findElement(By.xpath("//*[@id='searchbox']/span/div/div[1]")).click();
+		driver.findElement(By.xpath("//*[@id='searchbox']/span/div/div[1]")).sendKeys("Baby");
+
+	}
+
+}

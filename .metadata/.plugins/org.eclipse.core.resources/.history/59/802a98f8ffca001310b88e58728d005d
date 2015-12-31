@@ -1,0 +1,18 @@
+package polymorphism;
+
+public class fibonacci {
+
+	public static void main(String[] args) {
+		
+		
+		//calling method
+		score(35,30);
+		
+	}
+
+	public static void score(int bangla,int math)
+	{
+		
+	}
+	
+}

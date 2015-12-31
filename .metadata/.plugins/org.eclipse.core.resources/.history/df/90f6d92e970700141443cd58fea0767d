@@ -1,0 +1,14 @@
+package testing;
+
+public class ReverseString {
+
+	public static void main(String[] args) {
+
+		String s="cbb";
+		StringBuilder str=new StringBuilder(s);
+		System.out.println(str.reverse());
+		
+
+	}
+
+}

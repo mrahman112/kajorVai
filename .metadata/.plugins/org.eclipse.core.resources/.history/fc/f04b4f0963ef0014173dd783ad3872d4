@@ -1,0 +1,21 @@
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+
+public class Facebook {
+
+	public static void main(String[] args) throws Exception {
+		WebDriver driver=new FirefoxDriver();
+		driver.get("http://facebook.com");
+		System.out.println(driver.getTitle());
+		/*
+		driver.findElement(By.xpath("//*[@id='email']")).sendKeys("mdsapon@yahoo.com");
+		driver.findElement(By.xpath("//*[@id='pass']")).sendKeys("humaira1");
+		driver.findElement(By.xpath("//*[@id='loginbutton']")).click();
+		Thread.sleep(7000L);
+		driver.findElement(By.xpath("//div[text()='Search for people, places and things']")).sendKeys("hello");
+		*/
+	}
+
+}

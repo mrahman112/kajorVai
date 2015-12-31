@@ -1,0 +1,43 @@
+package testing;
+
+public class javatraining {
+	
+	static int i;
+	static String k;
+
+	public static void main(String[] args) {
+
+     /* array
+      * arrayList  List
+      * hashset    Set
+      * 
+      * hashtable
+      * hashmap
+      * 
+		
+     
+
+
+*/    
+		
+		
+		int [] a=new int[3];
+		a[0]=0;
+		a[1]=1;
+		a[2]=0;
+		
+		int[] b={4,5,8};
+		
+		i=10;
+		System.out.println(i);
+		i=20;
+		k="hello";
+		System.out.println(k);
+		k="hi";
+		
+		System.out.println(k);
+		
+		
+	}
+
+}

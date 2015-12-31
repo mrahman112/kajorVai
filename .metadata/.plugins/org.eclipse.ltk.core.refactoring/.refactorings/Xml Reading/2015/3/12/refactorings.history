@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;test.XML_Reader&apos; to &apos;XML_Reader_Feed&apos;&#x0D;&#x0A;- Original project: &apos;Xml Reading&apos;&#x0D;&#x0A;- Original element: &apos;test.XML_Reader&apos;&#x0D;&#x0A;- Renamed element: &apos;test.XML_Reader_Feed&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;XML_Reader&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;test{XML_Reader.java[XML_Reader" matchStrategy="1" name="XML_Reader_Feed" qualified="false" references="true" similarDeclarations="false" stamp="1426953124632" textual="false" version="1.0"/>
+</session>

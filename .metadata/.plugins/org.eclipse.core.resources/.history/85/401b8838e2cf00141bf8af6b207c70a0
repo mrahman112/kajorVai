@@ -1,0 +1,28 @@
+package test;
+
+public class XML_Reader {
+	
+	
+	public void getLatestEpisode(){
+		
+	}
+	
+	public void getLatestClip(){
+		
+	}
+	
+	public void getShowCaseItem(){
+		
+	}
+	
+	public void getFeaturedItemInHomePage(){
+		
+	}
+	
+	public void getShowsTitle(){
+		
+	}
+	
+	
+
+}

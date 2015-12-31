@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="20678" started-at="2014-06-04T02:58:26Z" finished-at="2014-06-04T02:58:46Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="20678" started-at="2014-06-04T02:58:26Z" finished-at="2014-06-04T02:58:46Z">
+      <class name="rough.pch">
+        <test-method status="PASS" signature="testing(java.util.Hashtable)[pri:0, instance:rough.pch@64d74895]" name="testing" duration-ms="5302" started-at="2014-06-03T22:58:26Z" data-provider="getdata" finished-at="2014-06-03T22:58:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{browser=Mozilla, password=p1, Runmode=y, username=u1}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testing -->
+        <test-method status="PASS" signature="testing(java.util.Hashtable)[pri:0, instance:rough.pch@64d74895]" name="testing" duration-ms="4737" started-at="2014-06-03T22:58:32Z" data-provider="getdata" finished-at="2014-06-03T22:58:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{browser=Mozilla, password=humaira1, Runmode=n, username=mdsapon@yahoo.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testing -->
+        <test-method status="PASS" signature="testing(java.util.Hashtable)[pri:0, instance:rough.pch@64d74895]" name="testing" duration-ms="4981" started-at="2014-06-03T22:58:36Z" data-provider="getdata" finished-at="2014-06-03T22:58:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{browser=Chrome, password=p1, Runmode=y, username=u1}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testing -->
+        <test-method status="PASS" signature="testing(java.util.Hashtable)[pri:0, instance:rough.pch@64d74895]" name="testing" duration-ms="4984" started-at="2014-06-03T22:58:41Z" data-provider="getdata" finished-at="2014-06-03T22:58:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{browser=Chrome, password=humaira1, Runmode=y, username=mdsapon@yahoo.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testing -->
+      </class> <!-- rough.pch -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

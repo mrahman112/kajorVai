@@ -1,0 +1,30 @@
+package test;
+
+import org.testng.Assert;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.Test;
+
+public class Testing {
+	
+	@Test
+	public void setup() throws InterruptedException{
+		int a=21;
+		int b=20;
+		Assert.assertEquals(a, b);
+		
+		System.out.println("Completed");
+	}
+	
+	
+	@AfterTest
+	public void result() throws Exception{
+		System.out.println("ready");
+		
+		EmailableReportSent.mailing();
+		System.out.println("sent");
+		
+	}
+
+	
+}

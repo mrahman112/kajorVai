@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="18127" started-at="2014-06-19T01:43:50Z" finished-at="2014-06-19T01:44:09Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="18127" started-at="2014-06-19T01:43:50Z" finished-at="2014-06-19T01:44:09Z">
+      <class name="com.nowriztech.config.singleton">
+        <test-method status="PASS" signature="doLogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.nowriztech.config.singleton@65327777]" name="doLogin" duration-ms="18058" started-at="2014-06-18T21:43:50Z" data-provider="getData" finished-at="2014-06-18T21:44:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mizan1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[mizan123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLogin -->
+        <test-method status="PASS" signature="doLogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.nowriztech.config.singleton@65327777]" name="doLogin" duration-ms="17984" started-at="2014-06-18T21:43:50Z" data-provider="getData" finished-at="2014-06-18T21:44:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mizan2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[mizan123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[mozilla]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLogin -->
+        <test-method status="PASS" signature="doLogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.nowriztech.config.singleton@65327777]" name="doLogin" duration-ms="18110" started-at="2014-06-18T21:43:50Z" data-provider="getData" finished-at="2014-06-18T21:44:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mizan]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[mizan123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[mozilla]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLogin -->
+      </class> <!-- com.nowriztech.config.singleton -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

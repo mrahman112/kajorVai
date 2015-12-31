@@ -1,0 +1,2 @@
+commit_dialog_history_messages=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<messages>\r\n<message>this is second commit</message>\r\n<message>this is our first commit</message>\r\n<message>there is another change</message>\r\n<message>there is minor modification in config.properties</message>\r\n<message>config.properties has been modified \#production has been added</message>\r\n</messages>
+eclipse.preferences.version=1

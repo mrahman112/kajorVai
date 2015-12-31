@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [test]">
+  <test name="test base(failed)">
+    <classes>
+      <class name="rough.testbase">
+        <methods>
+          <include name="intitialize"/>
+        </methods>
+      </class> <!-- rough.testbase -->
+      <class name="rough.yahoologintest">
+        <methods>
+          <include name="intitialize"/>
+          <include name="yahootest"/>
+        </methods>
+      </class> <!-- rough.yahoologintest -->
+    </classes>
+  </test> <!-- test base(failed) -->
+</suite> <!-- Failed suite [test] -->

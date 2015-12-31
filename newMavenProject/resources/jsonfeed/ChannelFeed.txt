@@ -1,0 +1,1 @@
+{"submittedDate":1400781695,"brand":"USA","channels": [{"type":"awe.BlockChannel","channelId":"Screen1_Template3a_ChannelA","title":"Screen1_Template3a_ChannelA","blocks":[{"assets": ["5E22145A-4B7D-4A15-F83D-B53EEB314E27","USA_ANV_2638264","USA_ANV_2636816","USA_ANV_2636816"]}]}]}
